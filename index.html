@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrancyConvertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="title">
+            <h1>
+                Currency Converter App
+            </h1>
+        </div>
+        <div class="from input-output">
+            <div class="box">
+                <p>From</p>
+                <input type="text" value="1" class="result" id="input">
+            </div>
+            <div class="box">
+                <p>Currency Type</p>
+                <div class="select-container">
+                    <img src="ind_flag.jpg" alt="flag">
+                    <select name="from" id="from">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="to input-output">
+            <div class="box">
+                <p>To</p>
+                <div class="result" id="output">80</div>
+            </div>
+            <div class="box">
+                <p>Currency Type</p>
+                <div class="select-container">
+                    <img src="usd_flag.png" alt="flag">
+                    <select name="to" id="to">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button>Convert IND to USD</button>
+        </div>
+    </form>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
